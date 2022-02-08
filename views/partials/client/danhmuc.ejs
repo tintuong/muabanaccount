@@ -1,0 +1,13 @@
+<div class="col-197 bg-fefaff boder5">
+    <ul class="danhmuc mt20">
+        <li><a href="#" class="w700">Danh mục</a></li>
+        <% danhmuc.forEach(element => {%>
+            <li>
+                <a href="/home/<%= element.name %>">
+                    <%= element.name %>
+                </a>
+            </li>
+            <%});%>
+
+    </ul>
+</div>

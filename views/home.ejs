@@ -1,0 +1,45 @@
+<div class="col-752 bg-fefaff boder5 ml30 p20">
+    <div class="title">
+        <% data.forEach(item => { %>
+            <div class="card py10 ">
+                <div class="col30 row">
+                    <img src="http://localhost:3000/<%= item.img %>" alt="">
+                    <div class="title-card ml10">
+                        <p>
+                            <%= item.tieude %>
+                        </p>
+                        <p class="font13">
+                            <%= item.tieudefull %>
+                        </p>
+                    </div>
+                </div>
+                <div class="col30">
+                    <div class="title-card ml10">
+                        <p>Đánh giá</p>
+                        <p class="font13">
+                            <!-- DANHGIA -->
+                            <% for(var i=0;i<item.danhgia;i++){ %>
+                                <i class="bi bi-star-fill text-yellow"></i>
+                                <% } %>
+                                    <% for(var i=0;i<4-item.danhgia;i++){ %>
+                                        <i class="bi bi-star-fill"></i>
+                                        <% } %>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="title-card">
+                        <p>Đã bán</p>
+                        <p class="font13">
+                            <%= item.daban %>
+                        </p>
+                    </div>
+                </div>
+                <div class="col20 text-end mt10">
+                    <a href="http://localhost:3000/dathang/<%=  item.tieude  %> " class="bg-mua btn text-white btn-mua mr10">Mua</a>
+                </div>
+            </div>
+            <% }); %>
+    </div>
+</div>

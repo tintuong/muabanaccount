@@ -1,0 +1,23 @@
+<!-- content -->
+<div class="col-385 bg-fefaff boder5 ml30 ">
+    <form action="">
+        <ul class="danhmuc ">
+            <li><a href="#" class="w700">Order</a></li>
+            <label for="">Name service :</label>
+            <li><input type="text" placeholder="<%= item.tieudefull %> " disabled></li>
+            <label for="">Time : </label>
+            <li><input type="text" placeholder="<%= item.time %>   month" disabled></li>
+            <label for="">Price :</label>
+            <li><input type="text" placeholder="<%= item.gia %>   VNĐ" disabled></li>
+            <label for="">Code :</label>
+            <li><input type="text" placeholder=" Mã khuyến mãi"></li>
+            <label for="">Notes :</label>
+            <li><textarea name="" id="" cols="30" rows="5" disabled><%= item.note %>   
+            </textarea></li>
+            <div class="line"></div>
+            <li><a href="#" class="w700">Tổng :<%= item.gia %>   VNĐ</a></li>
+        </ul>
+        <button class="btn ml30  my15">Xác nhận</button>
+
+    </form>
+</div>

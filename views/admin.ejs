@@ -1,0 +1,38 @@
+<!-- content -->
+<div class="row mb-3">
+
+    <div class="col-md-3">
+        <form action="" method="POST">
+            <div class="input-group mb-3  mt-4 ">
+
+                <input name="name" type="text" class="form-control">
+                <button type="submit " class="input-group-text btn-primary ">Thêm danh mục</span>
+            </div>
+        </form>
+  </div> 
+</div>
+
+<table class="table w-50 ">
+    <thead >
+        <tr class="bg-light ">
+            <th scope="col ">#</th>
+            <th scope="col ">Danh mục</th>
+            <th scope="col ">Chi tiết</th>
+            <th scope="col ">Thay đổi </th>
+            <th scope="col ">Delete </th>
+        </tr>
+    </thead>
+    <tbody>
+      <% danhmuc.forEach((element,index) => {%> 
+            <tr>
+                <th scope="row "><%= index+1  %> </th>
+                <td><a href="# " class="btn "><%= element.name %> </a></td>
+                <td><a href="/admin/baidang/<%= element.name %> " class="btn text-primary ">Xem</a></td>
+                <td><a href="# " class="btn text-primary ">Edit</a></td>
+                <td><a href="/admin/<%= element.name %> " class="btn text-primary ">Xóa</a></td>
+            </tr>
+            <% }); %> 
+        
+    </tbody>
+    
+</table>

@@ -1,0 +1,63 @@
+<!-- content -->
+<div class="row ">
+    <div class="col-md-3">
+        <form action="">
+            <div class="input-group mb-3  mt-4 ">
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <button type="submit" class="input-group-text btn-primary">Search</span>
+                </div>
+          </form>
+        </div>
+        <div class="col-md-4">
+            <div class="input-group mb-3  mt-4 ">
+               <a href="/admin/baidang/thembaidang">Thêm bài đăng</a>
+            </div>
+      </div> 
+    </div>
+
+
+    <table class="table mt-2 w-75">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                
+                <th scope="col">Tittle</th>
+                <th scope="col">Full-title</th>
+                <th scope="col">Đánh giá </th>
+                <th scope="col">Đã bán </th>
+                <th scope="col">Giá </th>
+                <th scope="col">Hạn dùng </th>
+               
+                <th scope="col">Xoa </th>
+            </tr>
+        </thead>
+        <tbody>
+            <% baidang.forEach(element => {%>
+                <tr>      
+                    <td><a href="#" class="btn"><%= element.id %> </a></td>
+                   
+                    <td><a href="#" class="btn"><%= element.tieude %></a></td>
+                    <td><a href="#" class="btn "><%= element.tieudefull %></a></td>
+                    <td><a href="#" class="btn "><%= element.danhgia %></a></td>
+                    <td><a href="#" class="btn "><%= element.daban %></a></td>
+                    <td><a href="#" class="btn "><%= element.gia %></a></td>
+                    <td><a href="#" class="btn  "><%= element.time %></a></td>
+                    
+                    <td><a href="admin/baidang/<%= name %> /<%= element.id %>" class="btn text-danger">xóa </a></td>
+                </tr>
+                <% }); %> 
+        </tbody>
+    </table>
+    
+</div>
+<div class="row mt-3 w-50">
+    <nav aria-label="Page navigation example  ">
+        <ul class="pagination ">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>

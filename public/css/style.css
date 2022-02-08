@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+    color: #323538;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: 'Yuji Boku', serif;
+}
+
+a {
+    padding: 7px 14px;
+    text-decoration: none;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.bg-fdf5ff {
+    background-color: #fdf5ff;
+}
+
+.bg-fefaff {
+    background-color: #fefaff;
+}
+
+.bg-naptien {
+    background-color: #c2c1f2;
+}
+
+.bg-mua {
+    background-color: #dfe2f8;
+    color: rgb(107, 107, 107) !important;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.row {
+    display: flex;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-197 {
+    width: 197px;
+    height: 470px;
+}
+
+.col-752 {
+    width: 752px;
+}
+
+.h60 {
+    height: 61px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.boder5,
+.btn {
+    border-radius: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.my10 {
+    margin: 10px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+ul.danhmuc {
+    list-style: none;
+    padding-left: 33px;
+}
+
+ul.danhmuc>li {
+    margin: 16px 0px;
+}
+
+ul.danhmuc>li>a {
+    color: #407c51;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+}
+
+.card:hover {
+    background-color: rgba(245, 245, 245, 0.637);
+    transition: all 0.5s;
+}
+
+.col20 {
+    width: 20%;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.card img {
+    width: 42px;
+    border-radius: 5px;
+}
+
+.py10 {
+    padding: 10px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+p {
+    margin: 0px;
+}
+
+.font13 {
+    font-size: 13px;
+}
+
+.mt10 {
+    margin-top: 8px;
+}
+
+.btn-mua {
+    padding: 7px 25px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.my15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-yellow {
+    color: rgb(243, 243, 4);
+    text-shadow: 1px 1px 6px rgb(73, 73, 73);
+}
+
+.border-top {
+    border-top: 1px solid rgb(231, 231, 231);
+}
+
+.col25 {
+    width: 25%;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.text-407c51 {
+    color: #407c51;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.bg-bdbdbd {
+    background-color: #bdbdbd;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-385 {
+    width: 385px;
+}
+
+label {
+    margin-left: 14px;
+    color: #407c51;
+}
+
+input,
+textarea {
+    width: 280px;
+    margin-left: 14px;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+input {
+    height: 32px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px 13px;
+    border: 1px solid beige;
+    font-size: 15px;
+}
+
+.input-nap {
+    width: 110px;
+}
+
+.line {
+    margin: 0 auto;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.bg-mua:hover {
+    background-color: #c2c1f2;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.bg-naptien:hover {
+    background-color: #7b8bff;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(255, 218, 98);
+    transition: all 0.5s;
+}
+
+label>img {
+    width: 80px;
+}
+
+.dangnhap {
+    width: 320px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px rgb(201, 201, 201);
+}
+
+.dangnhap input {
+    width: 220px;
+}
+
+.dangnhap a {
+    margin: 0 auto;
+    color: #0046c9;
+    padding: 0px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+input:disabled,
+textarea:disabled {
+    background-color: white;
+}

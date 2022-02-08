@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "ekrN3DMFGQ",
+      "taikhoan": "phanvananh",
+      "matkhau": "755f4ad7e1ebdfebe79234044cf4ccbf",
+      "name": null,
+      "phone": null,
+      "money": 100000,
+      "transaction": 0
+    },
+    {
+      "id": "V4vlbZgmEd",
+      "taikhoan": "admin",
+      "matkhau": "21232f297a57a5a743894a0e4a801fc3",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    },
+    {
+      "id": "V2ay1Qfeay",
+      "taikhoan": "admin1",
+      "matkhau": "e00cf25ad42683b3df678c61f42c6bda",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    },
+    {
+      "id": "tBszcpImYc",
+      "taikhoan": "fuckadmin",
+      "matkhau": "e00cf25ad42683b3df678c61f42c6bda",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    },
+    {
+      "id": "ASJPy8NxYK",
+      "taikhoan": "20520032",
+      "matkhau": "0d2373fb087292f1c26154a35103168b",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    },
+    {
+      "id": "7rnEdWyr4n",
+      "taikhoan": "205200321",
+      "matkhau": "946618b7557d6a2adc67a686ee9e6538",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    },
+    {
+      "id": "NSPZ3tMFG2",
+      "taikhoan": "sdfds",
+      "matkhau": "946618b7557d6a2adc67a686ee9e6538",
+      "name": null,
+      "phone": null,
+      "money": 0,
+      "transaction": 0
+    }
+  ],
+  "danhmuc": [
+    {
+      "id": 1,
+      "name": "vpn"
+    },
+    {
+      "id": 2,
+      "name": "phim"
+    },
+    {
+      "id": 3,
+      "name": "tiện ích"
+    },
+    {
+      "id": 4,
+      "name": "nghe nhạc"
+    },
+    {
+      "id": 5,
+      "name": "art"
+    },
+    {
+      "id": 6,
+      "name": "khác"
+    }
+  ],
+  "baidang": [
+    {
+      "tieude": "",
+      "iddanhmuc": "1",
+      "tieudefull": "",
+      "danhgia": "",
+      "time": "",
+      "img": "img/f92eac867707f4ffb5e59b72c5e3d8ae",
+      "daban": 0,
+      "id": "JVUmR"
+    },
+    {
+      "tieude": "1",
+      "iddanhmuc": "1",
+      "tieudefull": "1",
+      "danhgia": "1",
+      "time": "1",
+      "img": "img/c131432148f810af1d6d9867832f20ce",
+      "daban": 0,
+      "id": "G3Mzr"
+    },
+    {
+      "tieude": "1",
+      "iddanhmuc": "1",
+      "tieudefull": "1",
+      "danhgia": "1",
+      "time": "1",
+      "img": "img/486ef908b15112193afd6f86f30403e3",
+      "daban": 0,
+      "id": "vJFx4"
+    }
+  ]
+}
